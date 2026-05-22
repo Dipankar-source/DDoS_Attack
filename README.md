@@ -353,14 +353,14 @@ The system processes multiple DDoS detection datasets with the following charact
 
 | Model | Accuracy | Precision (Attack) | Recall (Attack) | F1-Score (Attack) |
 |-------|----------|-------------------|-----------------|-------------------|
-| Logistic Regression | 98.06% | 99.41% | 98.25% | 98.82% |
+| **Logistic Regression** | **98.06%** | **99.41%** | **98.25%** | **98.82%** ⭐ |
 | Random Forest | 97.27% | 99.94% | 96.77% | 98.33% |
 | SVM |  83.98% | 99.38% | 81.25% | 89.40% |
 | KNN | 91.28% | 99.95% | 89.56% | 94.47% |
-| **XGBoost** | **97.30%** | **99.98%** | **96.78%** | **98.35%** ⭐ |
+| XGBoost | 97.30% | 99.98% | 96.78% | 98.35% |
 | Deep Learning | 92.39% | 99.86% | 90.98% | 95.21% |
 
-**Winner**: XGBoost with F1-Score of 98.35%
+**Winner**: Logistic Regression with F1-Score of 98.82%
 
 ### Stage 2 Multi-Class Performance
 
